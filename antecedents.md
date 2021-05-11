@@ -45,6 +45,7 @@ In recent years Brazilian authorities and the private sector have increasingly f
 #### References
 
 ABEolica (2018). Brasil chega a 13 GW de capacidade instalada de energia eólica. [Blog post]. Retrieved from: http://abeeolica.org.br/noticias/brasil-chega-a-13-gw-de-capacidade-instalada-de-energia-eolica-canal-energia/
+
 ABSolar (2020). Infográfico ABsolar. Retrieved from: http://www.absolar.org.br/infografico-absolar.html. 
 ANEEL (2020). Resultados de Leilões. Brasília: ANEEL. 
 Bajay, S. V. (2004). National energy policy: Brazil. Encyclopedia of energy, 4, 111-25.
