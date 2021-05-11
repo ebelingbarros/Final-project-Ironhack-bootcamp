@@ -45,6 +45,10 @@ With this, Brazil’s wind energy grew from 93 MWh generated in 2005 to 55,986 G
 #### Solar energy and the auctioning system
 
 In recent years Brazilian authorities and the private sector have increasingly focused on solar energy development (Vale et al., 2017, p. 297).  ANEEL approved specific auctions for solar power plants in 2014. The first auction was held in 2014, and the second in 2015; 3047.6 MW of installed capacity was contracted in both auctions (Melo, Jannuzzi and Bajay, 2016, p. 228). Between 2012 and 2019, the Brazilian photovoltaic sector generated over 130 thousand jobs. In 2020, 120 thousand will be generated (ABSolar, 2020). The increase of distributed and centralized solar generating capacity in Brazil has been dramatic in the last years.  Another critical achievement of the auctions was that solar energy became the most competitive energy source of the auctions. There jas dramatic fall of the average price of solar proposed in auctions in the 2013-2019 period. 
+
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/solar.png">
+</p>
  
 #### References
 
