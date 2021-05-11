@@ -34,6 +34,10 @@ The sectoral reforms move away from the market-oriented model of the 1990s and b
 
 In summary, with the reforms, as Bajay (2006, p. 865) argues, the government was attempting to integrate competition and planning, which prompted the creation of a “mixed institutional model.”  Through this revision of the market-based model that had been implemented during the 1990s, the result was a "hybrid power model," in which the new strategy for a market that is mostly owned and run by private investors underlined the Brazilian state's regulatory role (Bradshaw, 2017, p. 158). The new hybrid model emerges because, although the state had to regain its directive role and that of a financier, it was also essential to harness market forces, mainly because the financial crisis of the 1980s and 1990s had reduced the state’s degree of freedom to carry the burden of all the investments necessary for the system's expansion. In this new hybrid model, thus, private investment could be successfully stimulated, with strong participation by the state both as a financial partner (through state companies or pension funds) and through its financing mechanisms, for example, through the BNDES (Born, 2019, p. 22). 
 
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/energy.png">
+</p>
+
 In the freshly introduced new auctions, there were different contracting mechanisms for power plants that already generated energy and new ones (Fishlow, 2013, p. 31). Auctions started being organized both for the generation of existing plants and new plants, whose capacity would be built after the auction. Since hydropower stations have lower generation unit costs than both thermal power stations and other renewable sources – such as wind power or biomass – it was expected that lower winning bids in the former type of auction would lead to overall lower average prices. The first auctions for energy generated in existing plants were conducted in December 2004 (Bajay, 2006, p. 874).  
 
 #### The auctioning system in the wind power sector
