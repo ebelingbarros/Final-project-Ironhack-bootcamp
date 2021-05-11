@@ -8,7 +8,7 @@ We used Tableau to create a story that is engaging and delivers all insights. Th
 
 The statist model that had led to the substantial increase of Brazil's installed capacity at sustained economic growth rates from the 1950s to the 1980s was close to its exhaustion in the 1990s, mostly because of a longstanding fiscal and financial crisis (Ferreira, 2000, p. 189). One reason was a price containment policy implemented due to macroeconomic reasons and a subsidization policy of energy intensive industries. From 1975 onwards, real tariffs were falling steadily. In in 1990, the average tariff was only 63% of the value charged in 1970 (Barbosa et al., 1991, p. 148).  If until the mid-1970s, the power industry was expanding in equilibrium through a comfortable self-financing capacity, the tariff containment policy curtailed the real return on the electric companies’ investments, which fell from 11% in 1977 to around 4-5% in 1986 (Romeu and Franco, 1989, p. 198). 
 
-![Picture](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/prices_and_productivity.png)
+![Picture](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/prices_and_productivity2.png)
 ***
 
 After 1975, however, investments well still growing. They increased from US$3.120 billion in 1970 to US$7.107 billion in 1980, fell in the early 1980s, to reach its highest value (US$8.66 billion) in 1987. During the 1970-1988 period, more than US$113 billion were invested in the electric power sector, which represented, on average, 9.1% of the country’s gross national capital formation. During the 1970-1990 period, the country’s installed capacity grew by 466.67%, equivalent to an average annual rate of 9.0% (Barbosa et al., 1991, p. 154).  
