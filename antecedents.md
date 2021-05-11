@@ -1,4 +1,4 @@
-# Historical overview: the process that led to Brazil's power sector auctioning system
+## An historical overview: the process that led to Brazil's power sector auctioning system
 
 In this file we are presenting the questions that the business wanted to answer visually.
 We used Tableau to create a story that is engaging and delivers all insights. The complete story can be found [here](https://public.tableau.com/profile/federico.giuliani#!/vizhome/Mid_Project_Data/StoryProject?publish=yes)
