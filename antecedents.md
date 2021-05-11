@@ -117,7 +117,7 @@ Viola, E., Franchini, M. (2017). Brazil and climate change: beyond the Amazon. A
 
 
 
-![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/Pictures/pricevsfeatures.png)
+![Picture](https://github.com/Caparisun/Linear_Regression_Project/blob/master/figures/prices_and_productivity.png)
 ***
 
 
