@@ -47,34 +47,63 @@ In recent years Brazilian authorities and the private sector have increasingly f
 ABEolica (2018). Brasil chega a 13 GW de capacidade instalada de energia eólica. [Blog post]. Retrieved from: http://abeeolica.org.br/noticias/brasil-chega-a-13-gw-de-capacidade-instalada-de-energia-eolica-canal-energia/
 
 ABSolar (2020). Infográfico ABsolar. Retrieved from: http://www.absolar.org.br/infografico-absolar.html. 
+
 ANEEL (2020). Resultados de Leilões. Brasília: ANEEL. 
+
 Bajay, S. V. (2004). National energy policy: Brazil. Encyclopedia of energy, 4, 111-25.
+
 Bajay, S. V. (2006). Integrating competition and planning: a mixed institutional model of the Brazilian electric power sector. Energy, 31(6-7), 865-876.
+
 Barbosa, P. S., Francato, A. L. (2004). Electricity contracting and risk management tools in the Brazilian energy market, 6th European Conference of the International Association of Energy Economics, Zurich, Switzerland. Zurich: International Association of Energy Economics.
+
 Barbosa, F. D. H., Arteiro, H. L., Caldas, M. J. L., de Pina, C., Froes, M. J. (1991). Aspectos econômicos das empresas estatais no Brasil: telecomunicações, eletricidade e petróleo. Rio de Janeiro: FGV, EPGE
+
 Bielschowsky, R. (2002). Investimento e reformas no Brasil: indústria e infraestrutura nos anos 1990. Brasília: Ipea/Cepal. 
+
 Born, P.H.S. (2019). Reflexões sobre o setor elétrico: alternativas para o futuro. In: Hochstetler, R.H. Reflexões sobre uma arquitetura de mercado para o setor elétrico brasileiro. Rio de Janeiro: Synergia Editora, 19-44.
+
 Bradshaw, A. (2017). Regulatory change and innovation in Latin America: The case of renewable energy in Brazil. Utilities Policy, 49(12), 156-164.
+
 Canêdo-Pinheiro, M., Dutra, J.C., Hernandez-Perez, A. (2011). Aspectos institucionais: regulação e competividade - telecomunicações, petróleo e energia elétrica. In: Bonelli, R. (2011). A agenda de competitividade do Brasil. Rio de Janeiro: Editora FGV, 195-228
+
 Ferreira, C.K.L. (2000). Privatização do setor elétrico no Brasil. In: Pinheiro, A. C., Fukasaku, K. A privatização no Brasil: o caso dos serviços de utilidade pública. Rio de Janeiro: BNDES, 179-220.
+
 Fishlow, A. (2013). Starting over: Brazil since 1985. Washington, D.C: Brookings Institution Press.
+
 Goldemberg, J., Prado, L. T. S. (2003). Reforma e crise do setor elétrico no período FHC. Tempo social, 15(2), 219-235.
+
 International Energy Agency (IEA) (2013). World Energy Outlook 2013. Paris: IEA.
+
 La Rovere, E.L., Westin, F.W., Wills., W. (2013). Energia Eólica. In: Santos, M.A. Fontes de Energia Nova e Renovável. São Paulo: LTC, 127-158.
+
 Lorenzo, H. C. (2001). O setor elétrico brasileiro: passado e futuro. Perspectivas: Revista de Ciências Sociais, (24/25), 147-70.
+
 Losekann, L., Oliveira, A., Silveira, G.B. (2011). Security of supply in large hydropower systems: the Brazilian case. In: Hunt, L. C., Evans, J. (Eds.). (2011). International handbook on the economics of energy. Cheltenham: Edward Elgar Publishing, 650-662.
+
 Mello, M. F. (1996). Os impasses da privatização do setor elétrico (Department of Economics PUC-Rio Texto para discussão no. 365). 
+
 Melo, C. A., Jannuzzi, G.M., Bajay, S. V. (2016). Nonconventional renewable energy governance in Brazil: Lessons to learn from the German experience. Renewable and Sustainable Energy Reviews, 61(8), 222-234.
+
 Mendonça, A. F., Dahl, C. (1999). The Brazilian electrical system reform. Energy Policy, 27(2), 73-83.Musacchio, A.; Lazzarini, S.G. (2014). Reinventing State Capitalism. Cambridge, Mass.: Harvard University Press.
-Oliveira, A., Salomão, L.A. (2016). Setor elétrico brasileiro: Estado e mercado. Rio de Janeiro: Synergia.,
+
+Oliveira, A., Salomão, L.A. (2016). Setor elétrico brasileiro: Estado e mercado. Rio de Janeiro: Synergia.
+
 Oliveira, A. (2007). The Political economy of the Brazilian power industry reform. In: Victor, D.G., Heller, T.C. The political economy of power sector reform: the experience of five major developing countries, Cambridge: Cambridge University Press, 2007, 31-75.
+
 Operador Nacional do Sistema (ONS). (2020). Histórico da operação. Brasília: Operador Nacional do Sistema. 
+
 Rosa, L. P. (2001). O apagão: Por que veio? Como sair dele? Rio de Janeiro: Editora Revan.
+
 Rosa, L. P. (2002). A crise de energia elétrica: causas e medidas de mitigação. In: Branco, A.M. (org.) Política energética e crise de desenvolvimento: a antevisão de Catullo Branco. São Paulo: Paz e Terra, 81-95. 
+
 Pinheiro, A. C. (2005). Reforma regulatória na infraestrutura brasileira: em que pé estamos. Marcos regulatórios no Brasil: o que foi feito e o que falta fazer. Rio de Janeiro: Ipea, 41-90.
+
 Romeu, N., Franco, O. (1989). Desequilíbrios do Setor de Energia e Condicionantes Econômicos e Financeiros da Política Energética Nacional. In: Para a Década de 90: Prioridades e Perspectivas de Políticas Públicas. Brasília: IPEA/IPLAN, 175-184.
+
 Silva, N. F., Rosa, L. P., Freitas, M. A. V., Pereira, M. G. (2013). Wind energy in Brazil: From the power sector's expansion crisis model to the favorable environment. Renewable and Sustainable Energy Reviews, 22(6), 686-697.
+
 Vale, A. M., Felix, D. G., Fortes, M. Z., Borba, B. S. M. C., Dias, B. H., Santelli, B. S. (2017). Analysis of the economic viability of a photovoltaic generation project applied to the Brazilian housing program “Minha Casa Minha Vida.” Energy Policy, 108(9), 292-298.
+
 Viola, E., Franchini, M. (2017). Brazil and climate change: beyond the Amazon. Abingdon: Routledge.
 
 
