@@ -40,6 +40,10 @@ In the freshly introduced new auctions, there were different contracting mechani
 
 The first wind power exclusive auction took place in December 2009. It attracted many investors, both private and government-owned companies, thus contracting 13,000 MW of wind projects (Bradshaw, 2017, p. 161). While the starting auction’s price was US$$94.6/MWh, the final average price reached was US$74.3/MWh, which represents a discount of approximately 21% discount (La Rovere, Westin, and Wills, 2013, p. 147). Since 2009, around 20,000 MW of added capacity in these auctions was successfully contracted, as shown in Graph 2.17 below. 
 
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/wind.png">
+</p>
+
 With this, Brazil’s wind energy grew from 93 MWh generated in 2005 to 55,986 GWh in 2019, accounting for around 8.9% of its electricity mix. In 2019, wind power was the second-fastest-growing energy source in the country (15.5%), only after solar power (92.1%) (EPE, 2020). Of the US$61.6 billion invested committed to investments in 43 auctions (in 21, there were bids for wind power projects) that have taken place from 2005 to 2019, around US$20.3 billion went to the wind power sector (ANEEL, 2020). Around 1 in every 4 of added capacity (MW) from the auctions comes from wind.  In 2018 Brazil reached the mark of 518 wind parks and over 6.600 wind turbines in operation. This has led to the creation of over 195 thousand jobs since wind power inception in Brazil, with a large concentration in the last eight years (ABEolica, 2018).  From 2008 onwards, wind energy projects were competitive, despite the absence of state subsidies (Viola and Franchini, p. 2017, p. 112).  The winning offers at recent energy auctions currently decline in price and achieve significant discounts on regulators' price ceiling. Since the early 2010s, Brazil's wind energy was among the lowest in the world at a level below the US$60/MWh mark (Silva et al. 2013, p. 694).  
 
 #### Solar energy and the auctioning system
