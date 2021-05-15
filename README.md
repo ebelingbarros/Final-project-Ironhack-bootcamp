@@ -19,7 +19,7 @@ Project exploring Data Collection, Visualisation and Analysis of Sports Statisti
 
 I wanted to explore the world of Sports Statistics and specifically focus on my favourite club, the mighty Leeds United. There is a huge amount of data recorded on all aspects of the sport, from overall match statistics down to the specific body part used to score goals. My initial plan was to collect a large amount of data on the club and sport as a whole, clean it and use it to build a database in MySQL. With the database built, I would write a number of queries to deliver specific and useful insight into how the team is performing and use Tableau to create a dashboard to visualise the data. With a large amount of data recorded and processed, I would attempt to answer a number of statistical questions related to the sport.
 
-![Project Outline](Figures/FinalProjectDiagram.png?raw=true "Project Outline")
+![Project Outline](figures/FinalProjectDiagram.png?raw=true "Project Outline")
 
 
 ## The Data
@@ -35,7 +35,7 @@ Using Python I was able to automate the process of collecting and combining data
 
 Reviewing the features in the data collected and thinking about how to link it together, I designed an ERD for how I wanted my database to look and act. Using MySQL, I created a new schema, and imported the six CSV files created in Python and continued further investigation and analysis.
 
-![ERD Design](Figures/LeedsUnitedDatabase.png?raw=true "ERD Design")
+![ERD Design](figures/LeedsUnitedDatabase.png?raw=true "ERD Design")
 
 ## Visualisation
 
@@ -43,7 +43,7 @@ Using Tableau I was able to easily visualise different aspects of the team's per
 
 [The final Tableau story can be found here.](https://public.tableau.com/profile/andrew.ashdown#!/vizhome/SportStatisticsAnalysis/LeedsStatsStory)
 
-![Dashboards](Figures/Dashboards.png?raw=true "Tableau Dashboards")
+![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
 
 ## Statistical Analysis
 
@@ -55,14 +55,14 @@ Using data from past Premier League seasons, I used a number of different regres
 
 [The Jupyter Notebook can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 
-![Python Data Analysis](Figures/PythonAnalysis.png?raw=true "Python Data Analysis")
+![Python Data Analysis](figures/PythonAnalysis.png?raw=true "Python Data Analysis")
 
 
 ***2. With the introduction of VAR, will we see an increase in the amount of penalties awarded?***
 
 I wanted to investigate whether changes to the way the game is refereed is having a significant effect on the number of penalties awarded. Using data from all the Premier League games I had, as the population and the games from the start of the 2020 season as the sample, I used the formula below to conduct a hypothesis test.
 
-![Hypothesis testing](Images/HypothesisFormula.png?raw=true "Hypothesis Testing")
+![Hypothesis testing](figures/HypothesisFormula.png?raw=true "Hypothesis Testing")
 
 The population mean was 0.106 and the sample mean was  0.231 with a standard deviation of 0.176. This gave a Z-score of 3.18. Testing first for a 95% confidence level, the critical value of 2.09 is below 3.18 so we can reject the null hypothesis and accept the alternative hypothesis. Testing again for a 99% confidence level,the critical value is 2.86, which is still below the Z-score. Therefore we can say with 99% certainty that we have seen a significant increase in the number of penalties awarded this season.
 
@@ -74,7 +74,7 @@ Looking at the statistics for games played before the 2020 season, **46%** of th
 
 Using the data collected, I wanted to create a tool used to deliver it to the public. Building an API in Python, using Flask libraries, I was able to create a number of routes that ran different queries on my database and returns the results back to the user as either a JSON file or rendered HTML page.
 
-![API Diagram](Figures/APIDiagram.png?raw=true, "API Diagram")
+![API Diagram](figures/APIDiagram.png?raw=true, "API Diagram")
 
 ## Review
 
