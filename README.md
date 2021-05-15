@@ -1,6 +1,6 @@
-# Sports Statistics Analysis
-## Andrew Ashdown
-### *December 2020*
+# Assessment of Brazil's electricity generation auctions
+## Francisco Ebeling
+### *May 2021*
 
 Project exploring Data Collection, Visualisation and Analysis of Sports Statistics.
 
