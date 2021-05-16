@@ -58,7 +58,9 @@ The second part of the statistical analysis of this projected consisted in answe
 
 To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependt variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, and therefore the equation to be regressed by the supervised ML regression models was the following: 
 
-![equation](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation.png)
+<p align="center">
+  <img width="80%" height="80%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation.png">
+</p>
 
 where g stands for Government expenditures, “size” – which is a measure of how many power plants were selected in a given auction –, r, which refers to embi+, which is a country specific risk measuer, e, referring to primary energy consumption, p, referring to the physical guarantee and xr, which is the exchange rate.
 
