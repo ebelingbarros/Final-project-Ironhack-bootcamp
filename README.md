@@ -2,7 +2,7 @@
 ## Francisco Ebeling
 ### *May 2021*
 
-Project exploring Data Collection, Visualisation and Analysis of Sports Statistics.
+This Project explores Visualisation and Analysis of Brazilian Electricity Generation Auctions.
 
 
 ## Content
@@ -17,7 +17,7 @@ Project exploring Data Collection, Visualisation and Analysis of Sports Statisti
 
 ## Project Outline
 
-I wanted to explore the world of Sports Statistics and specifically focus on my favourite club, the mighty Leeds United. There is a huge amount of data recorded on all aspects of the sport, from overall match statistics down to the specific body part used to score goals. My initial plan was to collect a large amount of data on the club and sport as a whole, clean it and use it to build a database in MySQL. With the database built, I would write a number of queries to deliver specific and useful insight into how the team is performing and use Tableau to create a dashboard to visualise the data. With a large amount of data recorded and processed, I would attempt to answer a number of statistical questions related to the sport.
+The objetive of this projects is to evaluate the performance of Brazil's electricity industry generation auctions, which have been taking place since 2005. The generation auctions system has been devised to increase security of supply, in response to 1990's failed experience of leaving the coordination of capacity and investments expansion to the market. These are, then, strictly regulated auctions, which aim at attracting new investment to the sector, at opening opportunities to the entry of new market participants from the private sector, but that also leave space for the public sector's guiding intervention. There is a considerably large database that is published by Brazil's electricity sector regulatory agency, ANEEL, with data regarding the more than 1,000 plants that have been auctioned so far. Based on this database and after an initial exploratory analysis. two classes of machine learning models are conducted: unsupervised Random Forest multiclass classification and regression (supervised linear and polynomial and unsupervised RAndom Forest. The first question is that is answered 
 
 ![Project Outline](figures/FinalProjectDiagram.png?raw=true "Project Outline")
 
