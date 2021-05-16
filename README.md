@@ -9,11 +9,9 @@ This Project explores Visualisation and Analysis of Brazilian Electricity Genera
 
 - [Project Outline](#project-outline)
 - [The Data](#the-data)
-- [The Database](#the-database)
-- [Visualisation](#visualisation)
 - [Statistical Analysis](#statistical-analysis)
-- [Delivering Insight](#delivering-insight)
-- [Review](#review)
+- [Visualisation](#visualisation)
+- [Insights and concluding thoughts](#insights-and-concluding-thoughts)
 
 ## Project Outline
 
