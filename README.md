@@ -56,17 +56,31 @@ The following table synthetizes the main results of the three takes of the Rando
 
 The second part of the statistical analysis of this projected consisted in answering the question of what can be done about the scenario found in part one. There it was found that while the price of every winning bid will inexorably tend to fall, which is explained by a technological and economic learning curve, the average size of the investments and of the average size of the physical guarantee tends to be small, which may threaten security of supply in the future and also become a macroeconomic burden. What then, can be done about it, to improve this scenario? To improve this scenario, a machine learning regression analysis is employed, using three different takes is employed (linear, polynomila and Random forest regression). 
 
-To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependt variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, and therefore the equation to be regressed by the supervised ML regression models was the following: 
+To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependendent variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, as can be seen int the table below. 
 
 <p align="center">
-  <img width="80%" height="80%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation.png">
+  <img width="39%" height="39%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
 </p>
 
-where g stands for Government expenditures, “size” – which is a measure of how many power plants were selected in a given auction –, r, which refers to embi+, which is a country specific risk measuer, e, referring to primary energy consumption, p, referring to the physical guarantee and xr, which is the exchange rate.
+tTherefore the equation to be regressed by the supervised ML regression models was the following: 
+
+<p align="center">
+  <img width="39%" height="39%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
+</p>
+
+where "g" stands for Government expenditures, "r", which refers to embi+, which is a country specific risk measure, "e", referring to primary energy consumption, "p", referring to the physical guarantee and "xr", which is the exchange rate. The following table synthetizes the results for the three models. 
+
+<p align="center">
+  <img width="39%" height="39%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
+</p>
+
+From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
+
+However, constructing ever larger plants to maximize may not be in the realm of the possible due to environmental reasons. After having been side-lined because of strong environmental and social opposition during the 1980s, massive investments in big hydroelectricity projects made a comeback through the carrying out of public energy auctions in the late 2000s. These projects’ configuration was shaped by the aim to minimize the environmental impact of hydropower construction in the Amazon region, which led the new generation of hydro dams to be built with the run-of-river technique.  However, the problem is that this construction technique reduces energy generation capacity (Viola and Franchini, 2017, p. 111). For example, Belo Monte’s capacity factor was only 40% (Carvalho, 2008, p. 220). This is tendentially worsened by frequent, prolonged droughts in the Amazon region (Viola and Franchini, 2017, p. 111). The construction of large hydro plants in the Amazon was subjected to heavy criticism from socio-environmental NGOs and local and indigenous communities directly affected by the projects (Viola and Franchini, 2017, p. 143). It was believed that these massive hydro dams would encourage further forest degradation and also led to the dislocation of indigenous and local communities (Viola and Franchini, 2017, p. 110-1). The licensing and implementation of the Belo Monte dam, which has been the subject of intricate and longstanding legal battles (Hochstetler, 2011, p. 359), led to multiple violations of domestic constitutional provisions, laws, and international treaties.  There are charges that the local population’s and indigenous concerns have not been sufficiently considered and that the environmental licensing process was fraught with substantial weakness (Hochstetler, 2011, p. 359-363). Due to these factors, it may not be possible to rely on hydro power's sheer size to maximize investments and physical guarantee. 
+
+By contrast, the average size of wind, solar, bagasse and biomass projects is relatively small. The analysis suggests that one option is to increase the number of winning bids in every auction. The ML model's results 
 
 
-
-The population mean was 0.106 and the sample mean was  0.231 with a standard deviation of 0.176. This gave a Z-score of 3.18. Testing first for a 95% confidence level, the critical value of 2.09 is below 3.18 so we can reject the null hypothesis and accept the alternative hypothesis. Testing again for a 99% confidence level,the critical value is 2.86, which is still below the Z-score. Therefore we can say with 99% certainty that we have seen a significant increase in the number of penalties awarded this season.
 
 ## Visualisation
 
