@@ -100,7 +100,7 @@ At the start of the project I was keen to demonstrate a number of different anal
 
 - Using the MySQL database and Flask libraries in Python, I created a simple API with a number of different routes, delivering either JSON or HTML to a user. 
 
-### References
+## References
 
 - Carvalho, J. F. D. (2008). Prioridades para investimentos em usinas elétricas. Estudos avançados, 22(64), 215-225.
 - Hochstetler, K. (2011). The politics of environmental licensing: Energy projects of the past and future in Brazil. Studies in Comparative International Development, 46(4), 349-371.
