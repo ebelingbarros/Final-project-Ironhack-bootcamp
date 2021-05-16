@@ -26,6 +26,8 @@ There is a considerably large database that is published by Brazil's electricity
 
 Brazil's electricity sector regulatory agency ANEEL publishes a spreadsheet containing [data](https://www.aneel.gov.br/documents/654791/0/CEL_Resultados_Leil%C3%B5es_Gera%C3%A7%C3%A3o_2005a2019_28102019/b56f496f-92d1-3905-b57e-2dedbde2738a) about every winning plant of its generation auctions and reports the main features of the 45 auctions held since 2005 in a Powerbi format [dashboards](https://app.powerbi.com/view?r=eyJrIjoiZTZiNDhjNjctZTQ2NC00YzFmLTgxYTUtZmY5YjEzNmI3MjdkIiwidCI6IjQwZDZmOWI4LWVjYTctNDZhMi05MmQ0LWVhNGU5YzAxNzBlMSIsImMiOjR9). After assessing this data, I used to Python to explore and assess the data, clean it, translate from portuguese to english, and create new variables. Throughout this process, some variables were converted from R$ to US$. The cleaned dataframe was exported to a CSV files to be used throughout the first step of the statistical analysis process. When considered pertinent, new variables where also created within the Machine Learning Jupyter Notebooks. 
 
+![Python Data Analysis](figures/PythonAnalysis.png?raw=true "Python Data Analysis")
+
 For the regression models, the cleaned dataframe was suplemented with data regarding Gross Capital Formation (GKF), Government Investments (G), Foreign Direct Investment (FDI), country specific risk (EMBI+) primary energy consumption (E), and exchange rate (R$ to US$). The data was gathered from the World Bank's statistics [website](https://data.worldbank.org/) (World Bank Open Data), from [IPEADATA](http://ipeadata.gov.br/Default.aspx) and from [BP's statistical review of World Energy](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html).
 
 [Jupyter Notebooks can be found here.](https://github.com/surelybassy/SportStatsAnalysis/tree/master/JupyterNotebooks)
@@ -50,9 +52,13 @@ The following table synthetizes the main results of the three takes of the Rando
 [Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 [Jupyter Notebook with bins of investments can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 
-***2. What are the determinants of investment behaviour?***
+***2. What are the determinants of investment behaviour and what can be done about it?***
 
-I wanted to investigate whether changes to the way the game is refereed is having a significant effect on the number of penalties awarded. Using data from all the Premier League games I had, as the population and the games from the start of the 2020 season as the sample, I used the formula below to conduct a hypothesis test.
+The second part of the statistical analysis of this projected consisted in answering the question of what can be done about the scenario found in part one. There it was found that while the price of every winning bid will inexorably tend to fall, which is explained by a technological and economic learning curve, the average size of the investments and of the average size of the physical guarantee tends to be small, which may threaten security of supply in the future and also become a macroeconomic burden. What then, can be done about it, to improve this scenario? To improve this scenario, a machine learning regression analysis is employed, using three different takes is employed (linear, polynomila and Random forest regression). 
+
+To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependt variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, and therefore the equation to be regressed by the supervised ML regression models was the following: 
+
+where g stands for Government expenditures, “size” – which is a measure of how many power plants were selected in a given auction –, r, which refers to embi+, which is a country specific risk measuer, e, referring to primary energy consumption, p, referring to the physical guarantee and xr, which is the exchange rate.
 
 ![Hypothesis testing](figures/HypothesisFormula.png?raw=true "Hypothesis Testing")
 
