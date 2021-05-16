@@ -57,7 +57,7 @@ Looking at the statistics for games played before the 2020 season, **46%** of th
 
 ## Visualisation
 
-Using Tableau I was able to easily visualise different aspects of the team's performance and focus on how individual players were performing in different areas. I spent lots of time experimenting with different and creative ways to display the numerous features in the data and created several interactive dashboards. 
+After this, Tableau was used to present graphs and dashboards that tell a story of the entire project, parting from a visual analysis the historical process that led to the creation of the electricity generation auction system, passing through a visualization of its main features, to an exploration of the models' main results. The Tableau story may be consumed as a long version of the final project presentation.
 
 [The final Tableau story can be found here.](https://public.tableau.com/profile/andrew.ashdown#!/vizhome/SportStatisticsAnalysis/LeedsStatsStory)
 
