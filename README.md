@@ -32,28 +32,31 @@ For the regression models, the cleaned dataframe was suplemented with data regar
 
 ## Statistical Analysis
 
-With lots of data collected and stored, I attempted to answer a number of statistical questions.
+After the data was gathered and processed, the next step of the project was to answer a series of statistical questions. 
 
-***1. Can you predict the total amount of goals a team will score in a season based on statistics from the games played?***
+***1. Is it possible to predict the profile of a probable next winning bid in the generation auctions would be like?***
 
-Using data from past Premier League seasons, I used a number of different regression models to try to predict the total amount of goals scored by a team. I found that I achieved the best accuracy using the Scikit-Learn Linear Regressor, giving a score of 88%.
+To answer that question, the Random Forest model multiclass was used in three different configurations. In the first one, I used the id of the individual winning bids themselves as classes to predicted. By using the "gini" criterion for prediction, it was possible to predict that that the probable average physical guarantee of the next auctioned would be in average 19.69 MW, and that the contracted electricty price would be US$22.5 per MW. It would be a wind energy plant and would be one out of 62 plants contracted in a hypothetical auction. It was shown that the physical guarantee and the probable investments associated with this hypothetical plants' construction are at the lower tier, but that the price negotiated would be very favorable. In this hypothetical scenario, the large number of plants contracted would to some extent compensate for the low physical guarantee and investments. The downside of this modeling approach was its very low accuracy score (0.00) and the fact that creating a confusion matrix added no practical value to the analysis due to the very large number of classes.
 
-[The Jupyter Notebook can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
+Because of the low level of statisfical significance of this first take, the model was run two more times. While a second predicted the probable bins (quantile) of the hypothetical physical guarantee of the next winning bid, the third one predicted the probable bins (quantile) of the hypothetical invesmtents. Because I wanted to observe how parameterization alters the test statistics, in the second exercise I experimented much more intensively with the Sklearn Random Forest classifier's available tuning options than in the third one. The results of the first modelling approach suggest that although the lower bins/quantiles (0-20%, 20-40%, and 40-60%) tend to appear with much more frequency in the results, suggesting the intial hypothesis that indeed the pyhsical guarantee of winning bids is declining, the results are highly dependent on which paramters are used and how. In other words, the modeller has the option to effectively guide the algorithm. 
+
+In the third take, where I wanted to predicted the probable bins (quantile) of the hypothetical investments in the next approved power plant, I also found that there tends to be a larger probability of the the next selected power plant to be concentrated on the lower bins. However, by looking at the confusion matrix it was possible to observe that the the higher quantiles predicted (20-40%, 40-60%, 60-80%) where the ones with the largest number of False Positives and False Negatives, which suggests that the modelling may have underpredicted the probability of a next power plant having a low level of investments.
+
+The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used.
 
 ![Python Data Analysis](figures/PythonAnalysis.png?raw=true "Python Data Analysis")
 
+[Jupyter Notebook with ids as the class to be predicted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
+[Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
+[Jupyter Notebook with bins of investments can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 
-***2. With the introduction of VAR, will we see an increase in the amount of penalties awarded?***
+***2. What are the determinants of investment behaviour?***
 
 I wanted to investigate whether changes to the way the game is refereed is having a significant effect on the number of penalties awarded. Using data from all the Premier League games I had, as the population and the games from the start of the 2020 season as the sample, I used the formula below to conduct a hypothesis test.
 
 ![Hypothesis testing](figures/HypothesisFormula.png?raw=true "Hypothesis Testing")
 
 The population mean was 0.106 and the sample mean was  0.231 with a standard deviation of 0.176. This gave a Z-score of 3.18. Testing first for a 95% confidence level, the critical value of 2.09 is below 3.18 so we can reject the null hypothesis and accept the alternative hypothesis. Testing again for a 99% confidence level,the critical value is 2.86, which is still below the Z-score. Therefore we can say with 99% certainty that we have seen a significant increase in the number of penalties awarded this season.
-
-***3. With Corona regulations barring fans from entering the stadium, will we still see a home ground advantage?***
-
-Looking at the statistics for games played before the 2020 season, **46%** of the time the team playing at home won. Comparing this to the games played under strict Covid lockdown rules, we see this number decrease to **38%**. With restrictions currently beginning to be eased and fans returning to stadiums, it would be interesting to see if this number rises back to the previous level.
 
 ## Visualisation
 
