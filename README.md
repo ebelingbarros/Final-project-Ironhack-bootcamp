@@ -30,21 +30,6 @@ Using Python I was able to automate the process of collecting and combining data
 
 [Jupyter Notebooks can be found here.](https://github.com/surelybassy/SportStatsAnalysis/tree/master/JupyterNotebooks)
 
-
-## The Database
-
-Reviewing the features in the data collected and thinking about how to link it together, I designed an ERD for how I wanted my database to look and act. Using MySQL, I created a new schema, and imported the six CSV files created in Python and continued further investigation and analysis.
-
-![ERD Design](figures/LeedsUnitedDatabase.png?raw=true "ERD Design")
-
-## Visualisation
-
-Using Tableau I was able to easily visualise different aspects of the team's performance and focus on how individual players were performing in different areas. I spent lots of time experimenting with different and creative ways to display the numerous features in the data and created several interactive dashboards. 
-
-[The final Tableau story can be found here.](https://public.tableau.com/profile/andrew.ashdown#!/vizhome/SportStatisticsAnalysis/LeedsStatsStory)
-
-![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
-
 ## Statistical Analysis
 
 With lots of data collected and stored, I attempted to answer a number of statistical questions.
@@ -70,13 +55,15 @@ The population mean was 0.106 and the sample mean was  0.231 with a standard dev
 
 Looking at the statistics for games played before the 2020 season, **46%** of the time the team playing at home won. Comparing this to the games played under strict Covid lockdown rules, we see this number decrease to **38%**. With restrictions currently beginning to be eased and fans returning to stadiums, it would be interesting to see if this number rises back to the previous level.
 
-## Delivering Insight
+## Visualisation
 
-Using the data collected, I wanted to create a tool used to deliver it to the public. Building an API in Python, using Flask libraries, I was able to create a number of routes that ran different queries on my database and returns the results back to the user as either a JSON file or rendered HTML page.
+Using Tableau I was able to easily visualise different aspects of the team's performance and focus on how individual players were performing in different areas. I spent lots of time experimenting with different and creative ways to display the numerous features in the data and created several interactive dashboards. 
 
-![API Diagram](figures/APIDiagram.png?raw=true, "API Diagram")
+[The final Tableau story can be found here.](https://public.tableau.com/profile/andrew.ashdown#!/vizhome/SportStatisticsAnalysis/LeedsStatsStory)
 
-## Review
+![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
+
+## Insights and concluding thoughts
 
 At the start of the project I was keen to demonstrate a number of different analytic and data science techniques, setting a number of goals I wanted to achieve, but leaving space to explore other areas along the way. 
 
