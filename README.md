@@ -1,4 +1,6 @@
 # Assessment of Brazil's electricity generation auctions
+![Header](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/header3.jpg)
+
 ## Francisco Ebeling
 ### *May 2021*
 
