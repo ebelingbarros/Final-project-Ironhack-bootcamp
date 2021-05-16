@@ -58,9 +58,11 @@ The second part of the statistical analysis of this projected consisted in answe
 
 To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependt variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, and therefore the equation to be regressed by the supervised ML regression models was the following: 
 
+![equation](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation.png")
+
 where g stands for Government expenditures, “size” – which is a measure of how many power plants were selected in a given auction –, r, which refers to embi+, which is a country specific risk measuer, e, referring to primary energy consumption, p, referring to the physical guarantee and xr, which is the exchange rate.
 
-![Hypothesis testing](figures/HypothesisFormula.png?raw=true "Hypothesis Testing")
+
 
 The population mean was 0.106 and the sample mean was  0.231 with a standard deviation of 0.176. This gave a Z-score of 3.18. Testing first for a 95% confidence level, the critical value of 2.09 is below 3.18 so we can reject the null hypothesis and accept the alternative hypothesis. Testing again for a 99% confidence level,the critical value is 2.86, which is still below the Z-score. Therefore we can say with 99% certainty that we have seen a significant increase in the number of penalties awarded this season.
 
