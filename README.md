@@ -21,7 +21,10 @@ The objetive of this projects is to evaluate the performance of Brazil's electri
 
 There is a considerably large database that is published by Brazil's electricity sector regulatory agency, ANEEL, with data regarding the more than 1,000 plants that have been auctioned so far. Based on this database and after an initial exploratory analysis. two classes of machine learning models are conducted: unsupervised Random Forest multiclass classification and regression (supervised linear and polynomial and unsupervised Random Forest. The first question is that is answered  
 
-![Project Outline](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/grafico.png)
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/processo.png"> 
+</p> 
+
 
 
 ## The Data
