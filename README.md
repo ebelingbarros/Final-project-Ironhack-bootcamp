@@ -97,7 +97,7 @@ The analysis also suggests that increasing energy consumption per se is not an o
 
 After this, Tableau was used to present graphs and dashboards that tell a story of the entire project, parting from a visual analysis the historical process that led to the creation of the electricity generation auction system, passing through a visualization of its main features, to an exploration of the models' main results. The Tableau story may be consumed as a long version of the final project presentation.
 
-[The final Tableau story can be found here.](https://public.tableau.com/profile/andrew.ashdown#!/vizhome/SportStatisticsAnalysis/LeedsStatsStory)
+[The final Tableau story can be found here.](https://public.tableau.com/profile/francisco.ebeling#!/vizhome/FinalProject_16213560028780/Story)
 
 ![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
 
