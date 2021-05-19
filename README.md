@@ -61,11 +61,19 @@ After the data was gathered and processed, the next step of the project was to a
 
 ***1. Is it possible to predict what the profile of a probable next winning bid in the generation auctions would be like?***
 
-To answer that question, the Random Forest multiclass classification algorithm was run 5 times. In 
+To answer that question, the Random Forest multiclass classification algorithm was run 6 times, predicting, for a hypothetically new selected plant, respectively, its:
+- Investments in US$
+- Physical Guarantee (Avg. Mw) 
+- Physical Guarantee (Avg. Mw) (Physical Guarantee (Avg. Mw) / No. of winning bids in auction)
+- State 
+- Source
+- Number of contracted plants in auction
 
+Because the data is highly imbalanced towards chiefly low investments and physical guarantee levels, I ran the Random Forest classification algorithm using class weighting. Hence, the following code was used for specifying the model:
 
-
-
+```
+classifier = RandomForestClassifier(criterion = 'entropy', random_state=42, class_weight='balanced') 
+```
 
 The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used.
 
