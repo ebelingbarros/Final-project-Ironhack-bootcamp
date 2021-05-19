@@ -103,7 +103,8 @@ model = sm.OLS(Y,X)
 X = df2.iloc[:,0:5].values 
 y = df2.iloc[:,5].values
 
-# The 'g' stands for government expenditures, 'risk_embi' is a measure of country risk and 'exch' is the exchange rate (R$ per US$ dollar)
+# The 'g' stands for government expenditures, 'risk_embi' is a measure of country risk and 
+'exch' is the exchange rate (R$ per US$ dollar)
 
 ```
 
@@ -113,7 +114,7 @@ y = df2.iloc[:,5].values
 From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
 
 <p align="center">
-  <img width="80" height="80%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/arvores-mortas.jpg">
+  <img width="80%" height="80%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/arvores-mortas.jpg">
 </p>
 
 
