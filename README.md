@@ -108,26 +108,10 @@ where "g" stands for Government expenditures, "r", which refers to embi+, which 
 
 From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
 
-```
-Why it wont't be eays to construct larger plants
+<p align="center">
+  <img width="90" height="90%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/arvores-mortas.jpg">
+</p>
 
-Constructing ever larger plants to maximize may not be in the realm of the possible due to environmental reasons. 
-After having been side-lined because of strong environmental and social opposition during the 1980s, massive investments 
-in big hydroelectricity projects made a comeback through the carrying out of public energy auctions in the late 2000s.
-These projects’ configuration was shaped by the aim to minimize the environmental impact of hydropower construction in 
-the Amazon region, which led the new generation of hydro dams to be built with the run-of-river technique.  However, 
-the problem is that this construction technique reduces energy generation capacity (Viola and Franchini, 2017, p. 111). 
-For example, Belo Monte’s capacity factor was only 40% (Carvalho, 2008, p. 220). This is tendentially worsened by 
-frequent, prolonged droughts in the Amazon region (Viola and Franchini, 2017, p. 111). The construction of large hydro 
-plants in the Amazon was subjected to heavy criticism from socio-environmental NGOs and local and indigenous communities 
-directly affected by the projects (ibid, p. 143). It was believed that these massive hydro dams would encourage further 
-forest degradation and also led to the dislocation  of indigenous and local communities (ibid, p. 110-1). The licensing 
-and implementation of the Belo Monte dam, which has been the subject of intricate and longstanding legal battles 
-(Hochstetler, 2011, p. 359), led to multiple violations of  domestic constitutional provisions, laws, and international 
-treaties.  There are charges that the local population’s and indigenous concerns have not been sufficiently considered
-and that the environmental licensing process was fraught with substantial weakness (ibid, p. 359-363). Due to these 
-factors, it may not be possible to rely on hydro power's sheer size to maximize investments and physical guarantee. 
-```
 
 
 
