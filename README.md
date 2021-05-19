@@ -80,15 +80,22 @@ The following table synthetizes the main results of the three takes of the Rando
 
 <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table1.png">
 
-- [Jupyter Notebook with ids as the class to be predicted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
-- [Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
-- [Jupyter Notebook with bins of investments can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
+The results suggests that the hypothetical new auctioned plant would likely have a **low** level of investment (bin A), a **very low** physical guarantee, a **very low** physical guarantee size in relation to the auction, would probably be located in a **Northeastern state** (BA, RN, CE), would be a **wind power plant** and would be **one among many widding bids** (in the prediciton of number of contracted plants in auction the bins "D" and "C", which correspond to a middle to high number, where the most likely). With this, it can be concluded that, although a typical next plant will have a **low** level of investments and **very low** level of physical guarantee, because in the hypothetical auction the number of approved plants will be **medium to high (within the C-D range)**, there are reason to believe that the country **may safeguard its electric power security of supply**.    
 
-***2. What are the determinants of investment behaviour and what can be done about it?***
+On the other hand, because the algorithm was instructed to perform **class weighting** in its prediction exercise, there is always a chance that the predicted classes are actually the outliers. It was seen, for example, that the energy source **solar**, which ranks third place among the most auctioned, was predicted to be more likely the predicted class than **hydro**, which occupies second spot. The same happened with the number of contracted plants in auctions, where the algorithm predicted with considerable precision that the outlier "A", which corresponds to a small number of contracted plants in auction, might be the predicted class. In this unlikely case, Brazil would **not be able to safeguard its electric power security of supply**.  
 
-The second part of the statistical analysis of this projected consisted in answering the question of what can be done about the scenario found in part one. There it was found that while the price of every winning bid will inexorably tend to fall, which is explained by a technological and economic learning curve, the average size of the investments and of the average size of the physical guarantee tends to be small, which may threaten security of supply in the future and also become a macroeconomic burden. What then, can be done about it, to improve this scenario? To improve this scenario, a machine learning regression analysis is employed, using three different takes is employed (linear, polynomila and Random forest regression). 
+- [Jupyter Notebook with investments bins prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_investments.ipynb)
+- [Jupyter Notebook with physical guarantee bins prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_physical_guarantee.ipynb)
+- [Jupyter Notebook with average physical guarantee size per auction bins prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_size_bins.ipynb)
+- [Jupyter Notebook with sources prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_sources.ipynb)
+- [Jupyter Notebook with states prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_states.ipynb)
+- [Jupyter Notebook with number of approved plants per auction prediction can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_number_bins.ipynb)
 
-To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependendent variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, as can be seen int the table below. 
+***2. What can be done to minimize the chances of the doomsday scenario materializing? What are the determinants of investment behaviour in electricity generation?***
+
+The second part of the statistical analysis of this projected consisted in answering the question of what can be done about the scenario found in part one. There it was found that while the price of every winning bid will inexorably tend to fall, which is explained by a technological and economic learning curve, the average size of the investments and of the average size of the physical guarantee tends to be small, which may threaten security of supply in the future and also become a macroeconomic burden. The counterveiling factor to minimize the chances of this event materializing is to **increase the number of winning bids**. Even though they have a **low** investments and **very low** physical guarantee profile, when added up they also may permit to accomplish the goal of safeguarding security of supply. What then, can be done about it, to improve this scenario? To analyse this question, a machine learning regression analysis is employed, using three different takes is employed: linear, polynomial and Random forest regression.
+
+To choose the most suitable model for the regression, simple OLS models where regressions, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependendent variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, as can be seen in the table below. 
 
 Therefore the equation to be regressed by the supervised ML regression models was the following: 
 
@@ -107,6 +114,8 @@ y = df2.iloc[:,5].values
 'exch' is the exchange rate (R$ per US$ dollar)
 
 ```
+
+
 
  The following table synthetizes the results for the three models. 
 
