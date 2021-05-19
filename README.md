@@ -128,10 +128,10 @@ Despite the fact that the Polynomial and Random Forest regression cannot answer 
   <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
 </p> 
 
-One possible interpretation is that these models are effectively extrapolating and predicting average investments in the future that are much lower than the current mean, given the parameters provided. This interpretation would ledence to the argument provided in the previous section that the size of the investments that are accorded by every winning bid are declining in time. 
+One possible interpretation is that these models are effectively extrapolating and predicting average investments in the future that are much lower than the current mean, given the parameters provided. This interpretation would led credence to the argument provided in the previous section that the size of the investments that are accorded by every winning bid are declining in time. 
 
 <p align="center">
-  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/ezgif.com-gif-maker%20(3).gif">
+  <img width="65%" height="65%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/ezgif.com-gif-maker%20(3).gif">
 </p> 
 
 Returning to the question that is being answered in this section demands returning to the linear regression ML modelling world. These are the predicted intercept and coefficients:
