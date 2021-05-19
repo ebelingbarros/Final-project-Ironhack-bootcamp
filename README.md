@@ -21,6 +21,11 @@ The objetive of this project is to assess the performance of Brazil's electricit
 
 There is a considerably large database that is published by Brazil's electricity sector regulatory agency, ANEEL, with data regarding the more than 1,000 plants that have been auctioned so far. The hypothesis is that although these auctions have been sucessful in attracting new investors, in diversifying sources of supply, in attracting new investments in power generation to a wide variety of Brazilian states, the long-term risk of energy scarcity has not been ruled out. Brazil's predominantly hydro based interconnected system is still subjected to the risk posed by variations in rainfall, at the same that the additions that are been made to the system's installed capacity (as measured by physical guarantee) through the auctions are tendentially becoming smaller. If the number of auctioned plants in the next round falls, Brazil may face a long term security of supply problem. 
 
+<p align="center">
+  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/1.png"> 
+</p> 
+
+
 Based on this database and after an initial exploratory analysis, two classes of machine learning models are conducted: unsupervised Random Forest multiclass classification and regression and supervised linear and polynomial regression. The first Random Forest multiclass algorithm is employed to answer the question of what an hypothetical new auction may look like in terms of investments, physicial guarantee, selected energy sources, states where the new plants will be built, the average size of the physical guarantee, and the likely number of selected plants. With these predictions, it is possible to test the formulated hypothesis. 
 
 The regression exercise answers another question, which is what can be done about it. I regress the determinants of investments in new capacity, having in mind that physical guarantee and investments are closely correlated. What, then, are the policy tools that may be employed to avoid the problem of faltering security of supply?
