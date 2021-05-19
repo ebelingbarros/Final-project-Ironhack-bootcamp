@@ -48,9 +48,9 @@ For the regression models, the cleaned dataframe was suplemented with data regar
 After this, Tableau was used to present graphs and dashboards that explored the features of the original database, plus some variables that have been created along the EDA/Data cleaning phase. 
 
 [The final Tableau story can be found here.](https://public.tableau.com/profile/francisco.ebeling#!/vizhome/FinalProject_16213560028780/Story)
-
+<p>&nbsp;</p>
 <p align="center">
-  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/ezgif.com-gif-maker%20(1).gif"> 
+  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/ezgif.com-gif-maker%20(1).gif">
 </p> 
 
 ## Statistical Analysis
