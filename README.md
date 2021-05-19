@@ -118,6 +118,9 @@ y = df2.iloc[:,5].values
 ```
 The following table synthetizes the results for the three models. 
 
+<img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table4.png">
+
+This table is telling us that while the Linear Regression machine learning algorithm serves two basic purposes, the Polynomial Regression ML and the Random Forest (unsupervised) ML algorithms tend to have only one. While in the first case both a prediction, the coefficient array and intercept are provided, in the two latter cases in practice only the prediction array has substantial analytical value. While the Polynomial Regression ML algorithm does provide estimations of an intercept and a coefficient, the nature of the equation makes their interpretation less straightforward. In the Random Forest case, there is no meaningful concept of coefficients as a takeaway for the modeller. **On the other hand, while using Linear Regressions serve this twofold purpose, it comes at the cost of much less statistically robust and accurate predictions, as measured by the R2 and the RMSE**.
 
 
 251859563
