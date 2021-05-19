@@ -132,14 +132,8 @@ One possible interpretation is that these models are effectively extrapolating a
 
 Returning to the question that is being answered in this section demands returning to the linear regression ML modelling world. These are the predicted intercept and coefficients:
 
-# y = intercept + g + risk_embi + primary_energy_consumption + physical_guarantee + exch
-# y = 251859563
-2120118.19
-110299.05
--26798765.20
-739.74
--56555517.10
-
+## y = intercept + g + risk_embi + primary_energy_consumption + physical_guarantee + exch
+## y = 251859563 + 2120118.19 + 110299.05 -26798765.20 + 739.74 + -56555517.10
 
 From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
 
