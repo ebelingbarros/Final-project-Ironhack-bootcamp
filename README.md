@@ -22,7 +22,7 @@ The objetive of this project is to assess the performance of Brazil's electricit
 There is a considerably large database that is published by Brazil's electricity sector regulatory agency, ANEEL, with data regarding the more than 1,000 plants that have been auctioned so far. The hypothesis is that although these auctions have been sucessful in attracting new investors, in diversifying sources of supply, in attracting new investments in power generation to a wide variety of Brazilian states, the long-term risk of energy scarcity has not been ruled out. Brazil's predominantly hydro based interconnected system is still subjected to the risk posed by variations in rainfall, at the same that the additions that are been made to the system's installed capacity (as measured by physical guarantee) through the auctions are tendentially becoming smaller. If the number of auctioned plants in the next round falls, Brazil may face a long term security of supply problem. 
 
 <p align="center">
-  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/1.png"> 
+  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/2.png"> 
 </p> 
 
 
