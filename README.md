@@ -90,26 +90,30 @@ The second part of the statistical analysis of this projected consisted in answe
 
 To choose the most suitable model for the regression, simple OLS models where conducted, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependendent variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, as can be seen int the table below. 
 
-<p align="center">
-  <img width="39%" height="39%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
-</p>
-
 Therefore the equation to be regressed by the supervised ML regression models was the following: 
 
-<p align="center">
-  <img width="29%" height="29%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
-</p>
+```
+# As specified for OLS modelling exercise
+Y = df['inv_US$'] 
+X = df[['g', 'risk_embi', 'primary_energy_consumption', 'physical_guarantee', 'exch']] 
+X = sm.add_constant(X) 
+model = sm.OLS(Y,X) 
 
-where "g" stands for Government expenditures, "r", which refers to embi+, which is a country specific risk measure, "e", referring to primary energy consumption, "p", referring to the physical guarantee and "xr", which is the exchange rate. The following table synthetizes the results for the three models. 
+# As specified for the ML supervised regression algorithm
+X = df2.iloc[:,0:5].values 
+y = df2.iloc[:,5].values
 
-<p align="center">
-  <img width="39%" height="39%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/equation2.png">
-</p>
+# The 'g' stands for government expenditures, 'risk_embi' is a measure of country risk and 'exch' is the exchange rate (R$ per US$ dollar)
+
+```
+
+ The following table synthetizes the results for the three models. 
+
 
 From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
 
 <p align="center">
-  <img width="90" height="90%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/arvores-mortas.jpg">
+  <img width="80" height="80%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/arvores-mortas.jpg">
 </p>
 
 
