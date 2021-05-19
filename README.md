@@ -122,8 +122,18 @@ The following table synthetizes the results for the three models.
 
 This table is telling us that while the Linear Regression machine learning algorithm serves two basic purposes, the Polynomial Regression ML and the Random Forest (unsupervised) ML algorithms tend to have only one. While in the first case both a prediction, the coefficient array and intercept are provided, in the two latter cases in practice only the prediction array has substantial analytical value. While the Polynomial Regression ML algorithm does provide estimations of an intercept and a coefficient, the nature of the equation makes their interpretation less straightforward. In the Random Forest case, there is no meaningful concept of coefficients as a takeaway for the modeller. **On the other hand, while using Linear Regressions serve this twofold purpose, it comes at the cost of much less statistically robust and accurate predictions, as measured by the R2 and the RMSE**.
 
+Despite the fact that the Polynomial and Random Forest regression cannot answer the questions of what the determinants of investments in electricity plants are (at least, not in a meaningful way), they do provide ancillary diagnosis for the question posed in the previous section. The average investment mean of the entire population of winning bids was US$80,134,187. While the linear regression predicted an average mean of US$74,959,601 (very close to the y-test's mean), the polynomial regression and random forest regressions predicted lower values, of respectively, US$70,446,797 and US$71,195,097. By tuning the random forest's parameters, I manage to achieve a mean that was less than US$55,000,000, at the cost, however, of a much lower R2 and a higher RMSE. Knowing how to trim the trees' branches and optimize its growth is, then, an intricate art! 
 
-251859563
+<p align="center">
+  <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
+</p> 
+
+One possible interpretation is that these models are effectively extrapolating and predicting average investments in the future that are much lower than the current mean, given the parameters provided. This interpretation would ledence to the argument provided in the previous section that the size of the investments that are accorded by every winning bid are declining in time. 
+
+Returning to the question that is being answered in this section demands returning to the linear regression ML modelling world. These are the predicted intercept and coefficients:
+
+# y = intercept + g + risk_embi + primary_energy_consumption + physical_guarantee + exch
+# y = 251859563
 2120118.19
 110299.05
 -26798765.20
@@ -156,9 +166,4 @@ The analysis also suggests that increasing energy consumption per se is not an o
 </p> 
 
 
-## References
-
-- Carvalho, J. F. D. (2008). Prioridades para investimentos em usinas elétricas. Estudos avançados, 22(64), 215-225.
-- Hochstetler, K. (2011). The politics of environmental licensing: Energy projects of the past and future in Brazil. Studies in Comparative International Development, 46(4), 349-371.
-- Viola, E., Franchini, M. (2017). Brazil and climate change: beyond the Amazon. Abingdon: Routledge.
 
