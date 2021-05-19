@@ -72,21 +72,19 @@ To answer that question, the Random Forest multiclass classification algorithm w
 Because the data is highly imbalanced towards chiefly low investments and physical guarantee levels, I ran the Random Forest classification algorithm using class weighting. Hence, the following code was used for specifying the model:
 
 ```
-classifier = RandomForestClassifier(criterion = 'entropy', random_state=42, class_weight='balanced') 
+classifier = RandomForestClassifier(criterion = 'entropy', random_state=42, 
+class_weight='balanced') 
 ```
 
 The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used.
-
-![Python Data Analysis](figures/PythonAnalysis.png?raw=true "Python Data Analysis")
+<p>&nbsp;</p>
+<p align="center">
+  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table1.png">
+</p> 
 
 - [Jupyter Notebook with ids as the class to be predicted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 - [Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 - [Jupyter Notebook with bins of investments can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
-
-
-<p align="center">
-  <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
-</p> 
 
 ***2. What are the determinants of investment behaviour and what can be done about it?***
 
@@ -112,7 +110,28 @@ where "g" stands for Government expenditures, "r", which refers to embi+, which 
 
 From the previous sections it was found that the average contracted price in each auction is bound to fall, and that increasing the number of contracted plants in each auction is a tool to increase investments and the physical guarantee. The most important result of the machine learning regression models is that the investments involved in the construction of a power plant is strongly dependent on its size, which is given by its physical guarantee. 
 
-Constructing ever larger plants to maximize may not be in the realm of the possible due to environmental reasons. After having been side-lined because of strong environmental and social opposition during the 1980s, massive investments in big hydroelectricity projects made a comeback through the carrying out of public energy auctions in the late 2000s. These projects’ configuration was shaped by the aim to minimize the environmental impact of hydropower construction in the Amazon region, which led the new generation of hydro dams to be built with the run-of-river technique.  However, the problem is that this construction technique reduces energy generation capacity (Viola and Franchini, 2017, p. 111). For example, Belo Monte’s capacity factor was only 40% (Carvalho, 2008, p. 220). This is tendentially worsened by frequent, prolonged droughts in the Amazon region (Viola and Franchini, 2017, p. 111). The construction of large hydro plants in the Amazon was subjected to heavy criticism from socio-environmental NGOs and local and indigenous communities directly affected by the projects (ibid, p. 143). It was believed that these massive hydro dams would encourage further forest degradation and also led to the dislocation of indigenous and local communities (ibid, p. 110-1). The licensing and implementation of the Belo Monte dam, which has been the subject of intricate and longstanding legal battles (Hochstetler, 2011, p. 359), led to multiple violations of domestic constitutional provisions, laws, and international treaties.  There are charges that the local population’s and indigenous concerns have not been sufficiently considered and that the environmental licensing process was fraught with substantial weakness (ibid, p. 359-363). Due to these factors, it may not be possible to rely on hydro power's sheer size to maximize investments and physical guarantee. 
+```
+Why it wont't be eays to construct larger plants
+
+Constructing ever larger plants to maximize may not be in the realm of the possible due to environmental reasons. 
+After having been side-lined because of strong environmental and social opposition during the 1980s, massive investments 
+in big hydroelectricity projects made a comeback through the carrying out of public energy auctions in the late 2000s.
+These projects’ configuration was shaped by the aim to minimize the environmental impact of hydropower construction in 
+the Amazon region, which led the new generation of hydro dams to be built with the run-of-river technique.  However, 
+the problem is that this construction technique reduces energy generation capacity (Viola and Franchini, 2017, p. 111). 
+For example, Belo Monte’s capacity factor was only 40% (Carvalho, 2008, p. 220). This is tendentially worsened by 
+frequent, prolonged droughts in the Amazon region (Viola and Franchini, 2017, p. 111). The construction of large hydro 
+plants in the Amazon was subjected to heavy criticism from socio-environmental NGOs and local and indigenous communities 
+directly affected by the projects (ibid, p. 143). It was believed that these massive hydro dams would encourage further 
+forest degradation and also led to the dislocation  of indigenous and local communities (ibid, p. 110-1). The licensing 
+and implementation of the Belo Monte dam, which has been the subject of intricate and longstanding legal battles 
+(Hochstetler, 2011, p. 359), led to multiple violations of  domestic constitutional provisions, laws, and international 
+treaties.  There are charges that the local population’s and indigenous concerns have not been sufficiently considered
+and that the environmental licensing process was fraught with substantial weakness (ibid, p. 359-363). Due to these 
+factors, it may not be possible to rely on hydro power's sheer size to maximize investments and physical guarantee. 
+```
+
+
 
 By contrast, the average size of wind, solar, bagasse and biomass projects is relatively small. The analysis suggests that one option is to increase the number of winning bids in every auction. The results of the ML models results - chiefly of the parameter's signs - suggests that there are options. While these are not necessarily are controllable by the electricity agency, they may be controlled by government policy. Two of these are increasing the government's investments - whose positive sign suggests that there is a positive correlation between this variable and investments committed in the auction - and by lowering the level of the exchange rate to the dollar. While it would be expected that a higher exchange rate would encourage FDI in the country, the probable causal mechanism for this finding is that lower exchange rates make investments more attractive because of the cost of importing goods and services for the assembly of a new power plant factor. 
 
@@ -120,13 +139,15 @@ The analysis also suggests that increasing energy consumption per se is not an o
 
 ## Insights and concluding thoughts
 
-At the start of the project I was keen to demonstrate a number of different analytic and data science techniques, setting a number of goals I wanted to achieve, but leaving space to explore other areas along the way. 
+-
+-
+-
+-
 
-- Using Python I collected, cleaned and exported several datasets, and created code that I can reuse to update them after every new game. Using the data I then built a machine learning model to predict how many goals a team will score in a season.
+<p align="center">
+  <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
+</p> 
 
-- As the data collection was relatively straight forward, I had lots of time to experiment with the visualisations in Tableau, creating a collection of visually appealing dashboards that offer interesting insight into the team's performance.
-
-- Using the MySQL database and Flask libraries in Python, I created a simple API with a number of different routes, delivering either JSON or HTML to a user. 
 
 ## References
 
