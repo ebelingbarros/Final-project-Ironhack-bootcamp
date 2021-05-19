@@ -130,6 +130,10 @@ Despite the fact that the Polynomial and Random Forest regression cannot answer 
 
 One possible interpretation is that these models are effectively extrapolating and predicting average investments in the future that are much lower than the current mean, given the parameters provided. This interpretation would ledence to the argument provided in the previous section that the size of the investments that are accorded by every winning bid are declining in time. 
 
+<p align="center">
+  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/ezgif.com-gif-maker%20(3).gif">
+</p> 
+
 Returning to the question that is being answered in this section demands returning to the linear regression ML modelling world. These are the predicted intercept and coefficients:
 
 ### y = intercept + g + risk_embi + primary_energy_consumption + physical_guarantee + exch
