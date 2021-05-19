@@ -148,6 +148,8 @@ By contrast, the average size of wind, solar, bagasse and biomass projects is re
 
 The analysis also suggests that increasing energy consumption per se is not an option to increase investments, as there is a negative correlation between these two factors. This suggests that investments in electricity have been following, and not have been anticipating demand increase. This suggests that in the future a possible bottleneck may arise. Finally, the analysis of the investment risk factor (EMBI+), which positively correlates with investments, suggests that a lower country risk does not necessarily postively affects investments. This would have occured if a negative correlation had been found, because the EMBI+ index tells that the lower the indicator, the safer it is to invest in the country.
 
+- [Jupyter Notebook with the results from the ML regression models.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/classification_number_bins.ipynb)
+
 ## Insights and concluding thoughts
 
 -
