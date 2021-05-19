@@ -97,6 +97,8 @@ The second part of the statistical analysis of this projected consisted in answe
 
 To choose the most suitable model for the regression, simple OLS models where regressions, in four different scenarios. In the first two scenarios, the dependent variable is investments. In the second one, dummmies of energy source are added. In the second last scenarios, the dependendent variable is the average size of investments in relation to the number of winning bids in a single auction. In the fourth scenario the same dummies were also added. The scenario with the best performance was the first one, as can be seen in the table below. 
 
+<img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table3.png">
+
 Therefore the equation to be regressed by the supervised ML regression models was the following: 
 
 ```
