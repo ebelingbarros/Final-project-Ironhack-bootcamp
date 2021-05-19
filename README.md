@@ -76,11 +76,9 @@ classifier = RandomForestClassifier(criterion = 'entropy', random_state=42,
 class_weight='balanced') 
 ```
 
-The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used.
-<p>&nbsp;</p>
-<p align="center">
-  <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table1.png">
-</p> 
+The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used:
+
+<img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/table1.png">
 
 - [Jupyter Notebook with ids as the class to be predicted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 - [Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
