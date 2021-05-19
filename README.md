@@ -41,7 +41,7 @@ For the regression models, the cleaned dataframe was suplemented with data regar
   <img width="95%" height="95%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/headerdata.png"> 
 </p> 
 
-[The Jupyter Notebooks can be found here.](https://github.com/surelybassy/SportStatsAnalysis/tree/master/JupyterNotebooks)
+[The Jupyter Notebook can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/Basic_eda.ipynb)
 
 ## Statistical Analysis
 
