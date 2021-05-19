@@ -59,17 +59,13 @@ After this, Tableau was used to present graphs and dashboards that explored the 
 
 After the data was gathered and processed, the next step of the project was to answer a series of statistical questions. 
 
-***1. Is it possible to predict the profile of a probable next winning bid in the generation auctions would be like?***
+***1. Is it possible to predict what the profile of a probable next winning bid in the generation auctions would be like?***
 
-To answer that question, the Random Forest model multiclass was used in three different configurations. In the first one, I used the id of the individual winning bids themselves as classes to predicted. By using the "gini" criterion for prediction, it was possible to predict that that the probable average physical guarantee of the next auctioned would be in average 19.69 MW, and that the contracted electricty price would be US$22.5 per MW. It would be a wind energy plant and would be one out of 62 plants contracted in a hypothetical auction. It was shown that the physical guarantee and the probable investments associated with this hypothetical plants' construction are at the lower tier, but that the price negotiated would be very favorable. In this hypothetical scenario, the large number of plants contracted would to some extent compensate for the low physical guarantee and investments. The downside of this modeling approach was its very low accuracy score (0.00) and the fact that creating a confusion matrix added no practical value to the analysis due to the very large number of classes.
+To answer that question, the Random Forest multiclass classification algorithm was run 5 times. In 
 
-Because of the low level of statisfical significance of this first take, the model was run two more times. While a second predicted the probable bins (quantile) of the hypothetical physical guarantee of the next winning bid, the third one predicted the probable bins (quantile) of the hypothetical invesmtents. Because I wanted to observe how parameterization alters the test statistics, in the second exercise I experimented much more intensively with the Sklearn Random Forest classifier's available tuning options than in the third one. The results of the first modelling approach suggest that although the lower bins/quantiles (0-20%, 20-40%, and 40-60%) tend to appear with much more frequency in the results, suggesting the intial hypothesis that indeed the pyhsical guarantee of winning bids is declining, the results are highly dependent on which paramters are used and how. In other words, the modeller has the option to effectively guide the algorithm. 
 
-<p align="center">
-  <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
-</p> 
 
-In the third take, where I wanted to predicted the probable bins (quantile) of the hypothetical investments in the next approved power plant, I also found that there tends to be a larger probability of the the next selected power plant to be concentrated on the lower bins. However, by looking at the confusion matrix it was possible to observe that the the higher quantiles predicted (20-40%, 40-60%, 60-80%) where the ones with the largest number of False Positives and False Negatives, which suggests that the modelling may have underpredicted the probability of a next power plant having a low level of investments.
+
 
 The following table synthetizes the main results of the three takes of the Random Forest multiclass classification model used.
 
@@ -78,6 +74,11 @@ The following table synthetizes the main results of the three takes of the Rando
 - [Jupyter Notebook with ids as the class to be predicted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 - [Jupyter Notebook with bins of physical guarantee to be producted can be accessed here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
 - [Jupyter Notebook with bins of investments can be found here.](https://github.com/surelybassy/SportStatsAnalysis/blob/master/JupyterNotebooks/TotalGoalsPrediction.ipynb)
+
+
+<p align="center">
+  <img width="55%" height="55%" src="https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/figures/tenor.gif"> 
+</p> 
 
 ***2. What are the determinants of investment behaviour and what can be done about it?***
 
