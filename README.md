@@ -43,6 +43,14 @@ For the regression models, the cleaned dataframe was suplemented with data regar
 
 [The Jupyter Notebook can be found here.](https://github.com/ebelingbarros/Final-project-Ironhack-bootcamp/blob/main/files/Basic_eda.ipynb)
 
+## Visualisation in Tableau
+
+After this, Tableau was used to present graphs and dashboards that explored the features of the original database, plus some variables that have been created along the EDA/Data cleaning phase. 
+
+[The final Tableau story can be found here.](https://public.tableau.com/profile/francisco.ebeling#!/vizhome/FinalProject_16213560028780/Story)
+
+![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
+
 ## Statistical Analysis
 
 After the data was gathered and processed, the next step of the project was to answer a series of statistical questions. 
@@ -96,14 +104,6 @@ Constructing ever larger plants to maximize may not be in the realm of the possi
 By contrast, the average size of wind, solar, bagasse and biomass projects is relatively small. The analysis suggests that one option is to increase the number of winning bids in every auction. The results of the ML models results - chiefly of the parameter's signs - suggests that there are options. While these are not necessarily are controllable by the electricity agency, they may be controlled by government policy. Two of these are increasing the government's investments - whose positive sign suggests that there is a positive correlation between this variable and investments committed in the auction - and by lowering the level of the exchange rate to the dollar. While it would be expected that a higher exchange rate would encourage FDI in the country, the probable causal mechanism for this finding is that lower exchange rates make investments more attractive because of the cost of importing goods and services for the assembly of a new power plant factor. 
 
 The analysis also suggests that increasing energy consumption per se is not an option to increase investments, as there is a negative correlation between these two factors. This suggests that investments in electricity have been following, and not have been anticipating demand increase. This suggests that in the future a possible bottleneck may arise. Finally, the analysis of the investment risk factor (EMBI+), which positively correlates with investments, suggests that a lower country risk does not necessarily postively affects investments. This would have occured if a negative correlation had been found, because the EMBI+ index tells that the lower the indicator, the safer it is to invest in the country.
-
-## Visualisation
-
-After this, Tableau was used to present graphs and dashboards that tell a story of the entire project, parting from a visual analysis the historical process that led to the creation of the electricity generation auction system, passing through a visualization of its main features, to an exploration of the models' main results. The Tableau story may be consumed as a long version of the final project presentation.
-
-[The final Tableau story can be found here.](https://public.tableau.com/profile/francisco.ebeling#!/vizhome/FinalProject_16213560028780/Story)
-
-![Dashboards](figures/Dashboards.png?raw=true "Tableau Dashboards")
 
 ## Insights and concluding thoughts
 
