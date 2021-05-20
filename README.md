@@ -155,6 +155,8 @@ Finally, the encouragement of energy demand growth as a tool to accelerate inves
 
 - The RF multiclass classification algorithm and the ML regression have a comparable predictive performance vis-à-vis the empirical verification of the formulated hypothesis. Because some of the features of the auction were classes (and not binned classes) I decided to use the classification problem to have a common pool of metrics to compare the outcome. Both the RF classification algorithm and the RF regressor (if correctly tuned) have done a good job in dealing with the unbalancedness of the data.
 
+- I plan to attempt to use the multiclass-multilabel classification in a future run of the modelling exercise.
+
 - A next step of the present research agenda is to predict what are the likely companies/consortia that would win the next hypothetical bid. I want to analyse whether the electricity generation auctions mechanism is encouraging a larger private sector investments appetite. In other words, I want to understand whether the sector is transitioning towards private ownership and whether the auctions mechanism has been an effective public policy. This step depends on gathering data about the companies' actionary structure, which is very time-consuming.
 
 - Another possible step is to incorporate code that attempts to simulate firms' strategic behavior into the logic of the classification algorithm, parting from auctions theory.
