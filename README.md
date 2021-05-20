@@ -158,10 +158,15 @@ Finally, the encouragement of energy demand growth as a tool to accelerate inves
 
 ## Insights and concluding thoughts
 
--
--
--
--
+- The Random Forest classification algorithm can be sucessfully applied to handle problems in which the data is heavily unbalanced. Key to that endeavor is to use ..... While the predictions tend continue emphasizing the largest classes, room is opened for the predictions to also contemplate the outliers. The accuracy of predictions is improved as the real world is more closely resembled. The fit of the proposed approach and hypothesis to the RF classification algorithm hinged on the possibility of improving the algorithm's predictive reach.
+
+- The RF multiclass classification algorithm and the ML regression have a comparable predictive performance vis-à-vis the formulated hypothesis. Because some of the features of the auction were classes (and not binned classes) I decided to use the classification problem to have a common pool of metrics to compare the outcome. Both the RF classification algorithm and the RF regressor (if correctly tuned) have done a good job in dealing with the unbalancedness of the data.
+
+- A next step of the present research agenda is to predict what are the likely companies/consortia that would win the next hypothetical bid. I want to analyse whether the electricity generation auctions mechanism is encouraging a larger private sector investments appetite. In other words, I want to understand whether the sector is transitioning towards private ownership and whether the auctions mechanism has been an effective public policy. This step depends on gathering data about the companies' actionary structure, which is very time-consuming.
+
+- Another possible step is to incorporate code that attempts to simulate firms' strategic behavior into the logic of the classification algorithm, parting from auctions theory.
+
+- This project showed me how important it is for the field of energy policy analysis and energy planning to perform "data deep dives". Some of the problems that have affected Brazil's energy sector during the last 20 years are related to the drive to shape its rules to preconceived economic principles. Getting to know what data is really telling us through state-of-the-art algorithms and visualisations is a form of reconciliating rule-making processes with reality. 
 
 
 
