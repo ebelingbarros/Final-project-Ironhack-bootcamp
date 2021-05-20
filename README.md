@@ -12,7 +12,7 @@ This Project explores Visualisation and Analysis of Brazilian Electricity Genera
 - [Project Outline](#project-outline)
 - [The Data](#the-data)
 - [Statistical Analysis](#statistical-analysis)
-- [Visualisation](#visualisation)
+- [Visualisation in Tableau](#visualisation-in-tableau)
 - [Insights and concluding thoughts](#insights-and-concluding-thoughts)
 
 ## Project Outline
